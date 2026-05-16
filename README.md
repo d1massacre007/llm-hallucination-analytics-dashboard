@@ -2,9 +2,8 @@
 ### *A Full-Stack Data Analytics Platform for AI Reliability & Risk Intelligence*
  
 <img width="1414" height="796" alt="7ae490bf-36b7-4036-9a53-9f9280e3d599" src="https://github.com/user-attachments/assets/119970a3-a6b7-4078-ad07-13c67b7827bf" />
-
-
-
+ 
+ 
  
 > **"You wouldn't take medical advice from someone who confidently makes things up — so why trust an LLM blindly?"**
  
@@ -29,6 +28,7 @@
 - [How to Run Locally](#-how-to-run-locally)
 - [AWS Infrastructure](#-aws-infrastructure)
 - [Future Improvements](#-future-improvements)
+- [Credits & Attributions](#-credits--attributions)
 ---
  
 ## 🚨 The Problem
@@ -115,6 +115,7 @@ The majority of hallucinations were **extrinsic** (58 cases) — meaning the mod
 | **Domains** | Medicine, Finance, Law, Science, Technology, History, Politics, General |
 | **Languages** | English, French, Spanish, Mandarin, Arabic, Hindi, German |
 | **Key Columns** | model_name, domain, hallucination_label, hallucination_type, severity, mitigation_strategy, annotation_confidence, intrinsic_or_extrinsic, prompt_type, language |
+| **Source** | [Kaggle — LLM Hallucination Benchmark Dataset](https://www.kaggle.com/datasets/alitaqishah/llm-hallucination-benchmark-dataset) by [Ali Taqi Shah](https://www.linkedin.com/in/alitaqishah/) |
  
 ### Hallucination Types Analyzed:
 - **Factual Contradiction** — Directly contradicts known facts
@@ -286,6 +287,24 @@ mysql -u root -p llm_hallucination < sql/llm_hallucination.sql
 - [ ] Expand dataset to 1000+ records across more models
 - [ ] Add real-time hallucination detection pipeline
 - [ ] Include GPT-4o vs Claude-3.5 head-to-head benchmark
+---
+ 
+## 🙏 Credits & Attributions
+ 
+### Dataset
+The dataset used in this project was sourced from Kaggle:
+ 
+> **LLM Hallucination Benchmark Dataset**
+> Created by [Ali Taqi Shah](https://www.linkedin.com/in/alitaqishah/)
+> 📦 [https://www.kaggle.com/datasets/alitaqishah/llm-hallucination-benchmark-dataset](https://www.kaggle.com/datasets/alitaqishah/llm-hallucination-benchmark-dataset)
+ 
+### Dashboard Background
+The dashboard background template was licensed from **Vecteezy**.
+ 
+> Background design sourced from [Vecteezy.com](https://www.vecteezy.com)
+> Used under the Vecteezy Free License with attribution as required.
+> Per the Vecteezy license terms, this resource is attributed to Vecteezy.com. For full licensing details, refer to the [Vecteezy Terms of Use](https://www.vecteezy.com/terms).
+ 
 ---
  
 ## 👨‍💻 Author
